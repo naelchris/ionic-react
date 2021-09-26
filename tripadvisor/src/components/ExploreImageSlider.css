@@ -1,0 +1,74 @@
+.explore-content-images-container{
+    overflow-y: scroll;
+    white-space: nowrap;
+    margin-top: 2rem;
+}
+.explore-content-title-margin{
+    margin-top: 4rem;
+}
+.explore-location-images{
+    width: 15rem;
+    height: 15rem;
+    margin-right: 1rem;
+    display: inline-block;
+    position: relative;
+}
+.explore-location-images-title{
+    bottom: 0;
+    left: 0%;
+    padding-left: 1rem;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(
+        0deg,rgba(0,0,0,0.6) 0,rgba(0,0,0,0.6) calc(100% - 32px),rgba(0,0,0,0)
+    );
+
+}
+
+.pricing{
+    color: white;
+}
+.explore-location-images-title h1{
+    font-weight: bold;
+    color: #ffffff;
+}
+.explore-location-images-Bali{
+    background-image: url('../assets/images/location-assets-1.jpeg');
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.explore-location-images-Munic{
+    background-image: url('../assets/images/location-assets-2.jpeg');
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.explore-location-images-london{
+    background-image: url('../assets/images/location-assets-3.jpeg');
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.explore-location-images-zuric{
+    background-image: url('../assets/images/location-assets-4.jpeg');
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.explore-location-images-antalya{
+    background-image: url('../assets/images/location-assets-5.jpeg');
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.explore-location-images-barcelona{
+    background-image: url('../assets/images/location-assets-6.jpeg');
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.explore-location-images-bath{
+    background-image: url('../assets/images/location-assets-7.jpeg');
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.explore-location-images-brighton{
+    background-image: url('../assets/images/location-assets-8.jpeg');
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}

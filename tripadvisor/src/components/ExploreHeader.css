@@ -1,0 +1,41 @@
+.explore-header{
+    background-image: url('../assets/images/illustration-background.png');
+    background-color: var(--ion-color-explore-background);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    min-height: 20rem;
+}
+.explore-header-button-container{
+    overflow-y: scroll;
+    white-space: nowrap;
+
+    width: 100%;
+}
+.explore-header-button{
+    color: #ffffff;
+    font-size: .8rem;
+    font-weight: bold;
+
+    display: inline-block;
+    background-color: #000000;
+    border-radius: 10rem;
+    padding: 1rem 1rem;
+    margin: 0rem .5rem;
+}
+.explore-header-icons{
+    margin-right: .2rem;
+    vertical-align: middle;
+}
+
+.search-header-container{
+    background-color: white;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.search-icons{
+    margin-right: 5px;
+}
