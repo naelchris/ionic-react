@@ -9,7 +9,7 @@ import {
   IonTabs,
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { home , search, heartOutline} from 'ionicons/icons';
+import { home , search, heartOutline, starOutline} from 'ionicons/icons';
 import Tab1 from './pages/Tab1';
 import Tab2 from './pages/Tab2';
 import Tab3 from './pages/Tab3';
@@ -63,6 +63,11 @@ const App: React.FC = () => (
           <IonTabButton tab="tab3" href="/tab3">
             <IonIcon icon={heartOutline} />
             <IonLabel>Love</IonLabel>
+          </IonTabButton>
+
+          <IonTabButton tab="tab3" href="/tab3">
+            <IonIcon icon={starOutline} />
+            <IonLabel>Review</IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>

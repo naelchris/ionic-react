@@ -1,0 +1,7 @@
+{
+  "name": "UTS",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
